@@ -45,6 +45,10 @@ canvas{
 
 div#container{color:white;position: fixed;top:40px;-webkit-animation:slidein 1s ease;animation:slidein 1s ease}
 h1{margin:100px 100px 5px;color: white;font-weight:100;font-size:7em;top: auto;padding-left: 450px;padding-top: 100px;text-align:center;letter-spacing:-3px}@media screen and (max-width: 768px){h1{font-size:18vw}}
+@media (min-device-width : 320px) and (max-device-width : 480px) {
+/* Smartphone  */
+}
+ 
 p#intro{display:block;;margin:0 40px 0;font-size:16px;font-weight:400;text-align:center;padding-left: 440px;text-transform:uppercase;letter-spacing:2px}@media screen and (max-width: 768px){p#intro{font-size:4vw}}
 div#links{margin-top:25px;text-align:center;padding-left: 420px;}
 div#links a{color:white;display:inline-block;cursor:pointer;margin-left:10px;margin-right:10px}
