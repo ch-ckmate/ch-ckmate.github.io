@@ -22,13 +22,15 @@ body,h1,video{margin:0;}
 	margin-top: -65vh;
 }
 
-h1{color: white;font-weight:100;font-size:7em;text-align:center;letter-spacing:-3px}@media screen and (max-width: 768px){h1{font-size:18vw}}
+h1{color: white;font-weight:100;font-size:7em;text-align:center;letter-spacing:-3px}
+@media screen and (max-width: 768px){h1{font-size:18vw}}
 
 
-p#intro{color: white;font-size:16px;font-weight:400;text-align:center;text-transform:uppercase;letter-spacing:2px}@media screen and (max-width: 768px){p#intro{font-size:4vw}}
-div#links{margin: 0 25px 10px;text-align:center;}
-div#links a{color:white;display:inline-block;cursor:pointer;margin-left:10px;margin-right:10px}
-div#links a .icon{cursor:pointer}@media screen and (max-width: 768px){div#links a{margin-left:1vw;margin-right:1vw}}
+#intro{color: white;font-size:16px;font-weight:400;text-align:center;text-transform:uppercase;letter-spacing:2px}
+@media screen and (max-width: 768px){#intro{font-size:4vw}}
+#links{margin: 0 25px 10px;text-align:center;}
+#links a{color:white;display:inline-block;cursor:pointer;margin-left:10px;margin-right:10px}
+#links a .icon{cursor:pointer}@media screen and (max-width: 768px){div#links a{margin-left:1vw;margin-right:1vw}}
 .icon{background:url("github.svg") no-repeat;background-size:100%;width:64px;height:64px;opacity:0.8;-webkit-transition:opacity 0.3s;transition:opacity 0.3s}
 .icon1{background:url("email.svg") no-repeat;background-size:100%;width:64px;height:64px;opacity:0.8;-webkit-transition:opacity 0.3s;transition:opacity 0.3s}
 
