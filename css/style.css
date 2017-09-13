@@ -20,17 +20,17 @@ body,h1,video{margin:0;}
 
 #testo{
 	margin-top: -65vh;
-}@media screen and (max-width: 768px){#testo{margin-top: 1vh;}}
+}@media screen and (max-width: 468px){#testo{margin-top: 40vh;}}
 
 h1{color: white;font-weight:100;font-size:7em;text-align:center;letter-spacing:-3px}
-@media screen and (max-width: 768px){h1{font-size:18vw}}
+@media screen and (max-width: 468px){h1{margin-left:1vw;margin-right:1vw;font-size:8vw}}
 
 
 #intro{color: white;font-size:16px;font-weight:400;text-align:center;text-transform:uppercase;letter-spacing:2px}
-@media screen and (max-width: 768px){#intro{font-size:4vw}}
+@media screen and (max-width: 468px){#intro{margin-left:1vw;margin-right:1vw;font-size:4vw}}
 #links{margin: 0 25px 10px;text-align:center;}
 #links a{color:white;display:inline-block;cursor:pointer;margin-left:10px;margin-right:10px}
-#links a .icon{cursor:pointer}@media screen and (max-width: 768px){div#links a{margin-left:1vw;margin-right:1vw}}
+#links a .icon{cursor:pointer}@media screen and (max-width: 468px){#links a{margin-left:1vw;margin-right:1vw}}
 .icon{background:url("github.svg") no-repeat;background-size:100%;width:64px;height:64px;opacity:0.8;-webkit-transition:opacity 0.3s;transition:opacity 0.3s}
 .icon1{background:url("email.svg") no-repeat;background-size:100%;width:64px;height:64px;opacity:0.8;-webkit-transition:opacity 0.3s;transition:opacity 0.3s}
 
@@ -49,4 +49,4 @@ align-items: center;
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-}@media screen and (max-width: 768px){#particles-js{background-size: cover;}}
+}@media screen and (max-width: 768px){#particles-js{position: fixed}}
