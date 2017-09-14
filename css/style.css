@@ -32,7 +32,7 @@ h1 {
   letter-spacing: -3px
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width:320px) {
   h1 {
     margin-left: 1vw;
     margin-right: 1vw;
@@ -49,7 +49,7 @@ h1 {
   letter-spacing: 2px
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) {
   #intro {
     margin-left: 1vw;
     margin-right: 1vw;
@@ -74,7 +74,7 @@ h1 {
   cursor: pointer
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) {
   #links a {
     margin-left: 1vw;
     margin-right: 1vw
@@ -116,7 +116,7 @@ h1 {
   background-repeat: no-repeat;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) {
   #particles-js {
     position: fixed
   }
