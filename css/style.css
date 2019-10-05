@@ -31,24 +31,13 @@ h1 {
   text-align: center;
   letter-spacing: -3px
 }
-p {
+#intro {
     animation: text-shadow 1.5s ease-in-out infinite;
     font-size: 5em;
     font-weight: 900;
     line-height: 1;
 }
 
-p:hover {
-    animation-play-state: paused;
-}
-
-a {
-    color: #024794;
-}
-
-a:hover {
-    text-decoration: none;
-}
 
 @keyframes text-shadow {
     0% {  
@@ -121,7 +110,12 @@ a:hover {
     font-size: 3vw
   }
 }
-
+@media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+}
 #links {
   margin: 0 25px 10px;
   text-align: center;
