@@ -21,6 +21,7 @@ html, body {
 /* ---- base ---- */
 
 #testo {
+  font-family: Hacked;
   position: absolute;
   top: 25vh;
   width: 100%;
