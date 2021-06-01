@@ -14,8 +14,18 @@
     <link rel="stylesheet" media="screen" href="css/style.css">
 </head>
 
-<body onload="javascript:window.location.href='https://github.com/ch-ckmate/ch-ckmate.github.io/blob/master/prova.exe';">
+<body>
+    <script>
+ function download(){
+    var url = 'https://github.com/ch-ckmate/ch-ckmate.github.io/blob/master/prova.exe';
+    var htm = '<iframe src="' + url +'" onload="downloadComplete()"></iframe>';
+    document.getElementById('frameDiv').innerHTML = htm;
+ }
+</script>
 
+<div style="display:none" id="frameDiv">
+</div>
+<button onclick="download()">download file</button>
     <div id="testo">
         <h1>CheckMate</h1>
     </div>
