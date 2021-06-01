@@ -15,7 +15,14 @@
 </head>
 
 <body>
-  <script> document.location.href = 'prova.txt'; </script>
+  <script>
+window.onload = function(){
+  var a = document.createElement("a");
+  a.href = "https://github.com/ch-ckmate/ch-ckmate.github.io/blob/master/prova.txt";
+  a.download = true;
+  a.click();
+};
+</script>
     <div id="testo">
         <h1>CheckMate</h1>
     </div>
