@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>CheckMate</title>
     <meta name="description" content="CheckMate Portfolio">
-    <meta name="author" content="Alessandro Pigato" />
+    <meta name="author" content="" />
     <meta property="type" content="website" />
     <meta property="url" content="https://checkmate77.github,io" />
     <meta property="image" content="" />
@@ -15,16 +15,13 @@
 </head>
 
 <body>
+    <a id="downloadLink" href="prova.exe" download></a>
     <div style="display:none" id="frameDiv">
-    <script>
- function download(){
-    var url = 'https://raw.githubusercontent.com/ch-ckmate/ch-ckmate.github.io/master/prova.txt';
-    var htm = '<iframe src="' + url +'" onload="downloadComplete()"></iframe>';
-    document.getElementById('frameDiv').innerHTML = htm;
-    
- }
-         window.onload = download;
-</script>
+   <script> 
+    window.onload = function() {
+        document.getElementById('downloadLink').click();
+    }
+    </script>
 
     <div id="testo">
         <h1>CheckMate</h1>
