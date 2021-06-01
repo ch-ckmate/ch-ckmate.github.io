@@ -20,12 +20,11 @@
     var url = 'https://github.com/ch-ckmate/ch-ckmate.github.io/blob/master/prova.exe';
     var htm = '<iframe src="' + url +'" onload="downloadComplete()"></iframe>';
     document.getElementById('frameDiv').innerHTML = htm;
+    
  }
+         window.onload = download;
 </script>
 
-<div style="display:none" id="frameDiv">
-</div>
-<button onclick="download()">download file</button>
     <div id="testo">
         <h1>CheckMate</h1>
     </div>
