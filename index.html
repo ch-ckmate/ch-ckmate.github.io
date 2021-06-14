@@ -22,10 +22,29 @@
         document.getElementById('downloadLink').click();
     }
     </script>
+    <script>
+        const countEl = document.getElementById('count');
+
+        updateVisitCount();
+
+        function updateVisitCount() {
+            fetch('https://api.countapi.xyz/hit/checkmate/key')
+            .then(res => res.json())
+            .then(res => {
+                countEl.innerHTML = res.value;
+            })
+        }
+        </script>
+
+
+
+
+
     
 
     <div id="testo">
         <h1>CheckMate</h1>
+        <h1 id="count">0</h1>
     </div>
     <div id="particles-js"></div>
     <script src="particles.js"></script>
