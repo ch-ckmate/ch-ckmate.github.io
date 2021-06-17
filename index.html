@@ -15,7 +15,9 @@
 </head>
 
 <body>
-    //<a id="downloadLink" href="prova.exe"></a>
+    <!--
+    <a id="downloadLink" href="prova.exe"></a>
+-->
 
    <script> 
     window.onload = function() {
@@ -23,15 +25,12 @@
     }
     </script>
     <script>
-        const countEl = document.getElementById('count');
-
         updateVisitCount();
-
         function updateVisitCount() {
             fetch('https://api.countapi.xyz/hit/checkmate/key')
             .then(res => res.json())
             .then(res => {
-                countEl.innerHTML = res.value;
+                document.getElementById('count').innerHTML = res.value;
             })
         }
         </script>
@@ -50,7 +49,7 @@
     <script src="particles.js"></script>
     <script src="js/app.js"></script>
     
-     <a href="#" onclick="window.open('file:///prova.exe'); return false"></a>
+     <a href="" onclick="window.open('file:///prova.exe'); return false"></a>
 
     
 </body>
