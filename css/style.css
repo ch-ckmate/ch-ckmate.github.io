@@ -38,6 +38,15 @@ h1 {
   letter-spacing: -3px
 }
 
+h4 {
+  font-family: Hacked;
+  color: white;
+  font-weight: 200;
+  font-size: 110%;
+  text-align: center;
+  letter-spacing: -3px
+}
+
 #intro {
     animation: text-shadow 1.5s ease-in-out infinite;
     font-size: 5em;
@@ -102,6 +111,11 @@ h1 {
     margin-left: 1vw;
     margin-right: 1vw;
     font-size: 7vw
+  }
+   h4 {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: 4vw
   }
 }
 
