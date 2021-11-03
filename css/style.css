@@ -59,7 +59,13 @@ h4 {
     letter-spacing: 2px
 }
 
-
+canvas {
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
 @keyframes text-shadow {
     0% {  
         transform: translateY(0);
