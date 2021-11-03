@@ -3,7 +3,19 @@
     src: url(https://hackedfont.com/HACKED.ttf);
 }
 
+body,
+*,
+h1,
+h4,
+video {
+  margin: 0;
+}
 
+
+
+html, body {
+  height: 100%;
+}
 #testo {
   font-family: Hacked;
   position: absolute;
