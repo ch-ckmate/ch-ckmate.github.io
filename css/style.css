@@ -18,7 +18,7 @@ html, body {
 }
 #testo {
   font-family: Hacked;
-  position: absolute;
+  position: relative;
   top: 25vh;
   width: 100%;
   margin: 0 auto;
@@ -29,7 +29,7 @@ h1 {
   font-family: Hacked;
   color: white;
   font-weight: 200;
-  font-size: 160%;
+  font-size: 150px;
   text-align: center;
   letter-spacing: -3px
 }
@@ -38,7 +38,7 @@ h4 {
   font-family: Hacked;
   color: white;
   font-weight: 200;
-  font-size: 110%;
+  font-size: 100px;
   text-align: center;
   letter-spacing: -3px
 }
